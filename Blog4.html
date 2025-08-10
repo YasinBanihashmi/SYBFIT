@@ -7,21 +7,22 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <meta name="description" content="">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="assets/style.css">
-    <style>
-        @font-face {
-            font-family:Yasin;
-            src: url(assets/font/yekan3.ttf);
-        }
-    </style>
+    <link rel="stylesheet" href="assets//css/style.min.css">
+    <link rel="stylesheet" href="assets//css/style2.css">
+    <meta property="og:locale" content="fa_IR" />
+	<meta property="og:locale:alternate" content="en_US" />
+	<meta property="og:locale:alternate" content="ar_AR" />
+	<meta property="og:type" content="website" />
+    <meta property="og:title" content="">
+    <meta property="og:url" content="">
     
 </head>
 <body class="font-sans bg-white">
-    <!-- Navigation -->
+    <!-- ناوبری -->
     <nav class="bg-white shadow-lg fixed w-full z-50">
         <div class="max-w-7xl mx-auto px-4">
             <div class="flex justify-between items-center h-20">
-                <!-- Logo -->
+                <!-- لوگو -->
                 <div class="flex-shrink-0 flex items-center">
                     <div class="flex items-center">
                         <i class="fas fa-dumbbell text-3xl text-blue-500 mr-2"></i>
@@ -29,16 +30,16 @@
                     </div>
                 </div>
                 
-                <!-- Desktop Menu -->
+                <!--منو در حالت دسکتاپ -->
                 <div class="hidden md:flex items-center space-x-8">
-                    <a href="index1.html" class="nav-link text-gray-800 hover:text-blue-500 px-3 py-2 text-lg font-medium">صفحه اصلی</a>
-                    <a href="index1.html" class="nav-link text-gray-800 hover:text-blue-500 px-3 py-2 text-lg font-medium">درباره ما</a>
-                    <a href="index1.html" class="nav-link text-gray-800 hover:text-blue-500 px-3 py-2 text-lg font-medium">خدمات ما</a>
+                    <a href="index.html" class="nav-link text-gray-800 hover:text-blue-500 px-3 py-2 text-lg font-medium">صفحه اصلی</a>
+                    <a href="index.html" class="nav-link text-gray-800 hover:text-blue-500 px-3 py-2 text-lg font-medium">درباره ما</a>
+                    <a href="index.html" class="nav-link text-gray-800 hover:text-blue-500 px-3 py-2 text-lg font-medium">خدمات ما</a>
                     <a href="Blog.html" class="nav-link text-gray-800 hover:text-blue-500 px-3 py-2 text-lg font-medium">وبلاگ ها</a>
                     <a href="#services" class="nav-link text-gray-800 hover:text-blue-500 px-3 py-2 text-lg font-medium">ارتباط با ما</a>
                 </div>
                 
-                <!-- Mobile menu button -->
+                <!-- دکمه منو در حالت موبایل -->
                 <div class="md:hidden flex items-center">
                     <button id="mobile-menu-button" class="text-gray-800 hover:text-blue-500 focus:outline-none">
                         <svg class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -49,24 +50,24 @@
             </div>
         </div>
         
-        <!-- Mobile Menu -->
+        <!-- منو موبایل -->
         <div id="mobile-menu" class="md:hidden hidden bg-white shadow-lg">
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a href="index1.html" class="block px-3 py-2 text-base font-medium text-gray-800 hover:text-blue-500 hover:bg-blue-50">صفحه اصلی</a>
-                <a href="index1.html" class="block px-3 py-2 text-base font-medium text-gray-800 hover:text-blue-500 hover:bg-blue-50">درباره ما</a>
-                <a href="index1.html" class="block px-3 py-2 text-base font-medium text-gray-800 hover:text-blue-500 hover:bg-blue-50">خدمات ما</a>
+                <a href="index.html" class="block px-3 py-2 text-base font-medium text-gray-800 hover:text-blue-500 hover:bg-blue-50">صفحه اصلی</a>
+                <a href="index.html" class="block px-3 py-2 text-base font-medium text-gray-800 hover:text-blue-500 hover:bg-blue-50">درباره ما</a>
+                <a href="index.html" class="block px-3 py-2 text-base font-medium text-gray-800 hover:text-blue-500 hover:bg-blue-50">خدمات ما</a>
                 <a href="Blog.html" class="block px-3 py-2 text-base font-medium text-gray-800 hover:text-blue-500 hover:bg-blue-50">وبلاگ ها</a>
-                <a href="#services" class="block px-3 py-2 text-base font-medium text-gray-800 hover:text-blue-500 hover:bg-blue-50">ارتباط با ما</a>
+                <a href="#contact" class="block px-3 py-2 text-base font-medium text-gray-800 hover:text-blue-500 hover:bg-blue-50">ارتباط با ما</a>
             </div>
         </div>
     </nav>
 
-    <!-- Main Content -->
+    <!--محتواي اصلی -->
     <main class="pt-20 pb-8 flex-grow"> <!-- اضافه کردن pt-20 برای فاصله از نویگیشن و flex-grow -->
-        <!-- Blog Section -->
+        <!-- بخش وبلاگ ها -->
         <section id="blog" class="py-20 bg-white">
             <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-                <!-- Blog Header -->
+                <!-- بخش هدر وبلاگ  -->
                 <div class="text-center mb-16">
                     <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">علم بازیابی: <span class="text-blue-500">تکنیک‌هایی برای افزایش عملکرد</span></h2>
                     <div class="w-20 h-1 bg-blue-500 mx-auto mb-6"></div>
@@ -77,7 +78,7 @@
                     </div>
                 </div>
 
-                <!-- Blog Content -->
+                <!-- محتواي وبلاگ -->
                 <div class="prose max-w-none mb-16">
                     <img src="assets/images/MRMR9.jpg" alt="ورزش و بازیابی" class="rounded-lg w-full h-96 object-cover mb-8">
                     
@@ -97,11 +98,11 @@
                     <p class="text-gray-600 dark:text-gray-3">با رعایت اصول بازیابی، می‌توانید از آسیب‌های ورزشی جلوگیری کرده و عملکرد خود را در جلسات بعدی تمرین به میزان قابل توجهی بهبود بخشید.</p>
                 </div>
 
-                <!-- Comments Section -->
-                <div class="mt-16">
+                <!-- بخش نظرات -->
+                <div id="contact" class="mt-16">
                     <h3 class="text-2xl font-bold text-gray-800 mb-8">نظرات کاربران</h3>
                     
-                    <!-- Comment Form -->
+                    <!-- فرم نظرات -->
                     <div class="bg-gray-50 p-6 rounded-lg mb-8">
                         <h4 class="text-lg font-medium text-gray-800 mb-4">دیدگاه خود را بنویسید</h4>
                         <form>
@@ -116,9 +117,9 @@
                         </form>
                     </div>
                     
-                    <!-- Comments List -->
+                    <!-- لیست نظرات -->
                     <div class="space-y-6">
-                        <!-- Comment 1 -->
+                        <!-- 1نظرات -->
                         <div class="bg-gray-50 p-6 rounded-lg">
                             <div class="flex items-center mb-4">
                                 <div class="w-10 h-10 rounded-full bg-blue-500 flex items-center justify-center text-white font-bold">م</div>
@@ -130,7 +131,7 @@
                             <p class="text-gray-600">مقاله بسیار مفیدی بود. من از تکنیک حمام آب سرد استفاده کردم و واقعا تأثیرش رو احساس کردم.</p>
                         </div>
                         
-                        <!-- Comment 2 -->
+                        <!-- 2نظرات -->
                         <div class="bg-gray-50 p-6 rounded-lg">
                             <div class="flex items-center mb-4">
                                 <div class="w-10 h-10 rounded-full bg-blue-500 flex items-center justify-center text-white font-bold">ع</div>
@@ -145,8 +146,8 @@
                 </div><br>
             </div>
 
-            <!-- Map Section -->
-            <div class="h-96 w-full bg-gray-200">
+    <!-- بخش مپ-->
+    <div class="h-96 w-full bg-gray-200">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215256018043!2d-73.9878449241641!3d40.74844097138961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1689876443585!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
@@ -223,17 +224,26 @@
         </div>
     </footer>
 
-    <!-- Back to Top Button -->
+    <!--دکمه بازگشت به بالا -->
     <button id="back-to-top" class="fixed bottom-8 right-8 bg-blue-600 text-white w-12 h-12 rounded-full shadow-lg flex items-center justify-center opacity-0 invisible transition-all duration-300">
         <i class="fas fa-arrow-up"></i>
     </button>
     
-    <button id="theme-toggle" class="fixed bottom-8 left-8 w-12 h-12 bg-gray-200 dark:bg-gray-700 text-black dark:text-white rounded-full shadow-lg flex items-center justify-center hover:bg-gray-300 dark:hover:bg-gray-600 transition duration-300 z-50">
+    <button id="theme-toggle" class="fixed bottom-8 left-8 w-12 h-12 bg-gray-200 dark:bg-gray-700 text-black dark:text-white rounded-full shadow-lg flex items-center justify-center hover:bg-gray-300 dark:hover:bg-gray-600 transition duration-300 z-50 px-4 py-3 bg-gradient-to-r from-purple-600 to-blue-500 rounded-full text-white font-semibold hover:opacity-90 transition transform hover:scale-105 glow">
         <i class="fas fa-moon dark:hidden"></i>
         <i class="fas fa-sun hidden dark:block"></i>
       </button>
       
     <script src="assets/js/js.js"></script>
-    <script src="assets/js/theme-toggle.js"></script>
+    <script src="assets/js/theme-toggle.min.js"></script>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
 </body>
 </html>
